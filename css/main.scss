@@ -1497,7 +1497,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 6em;
+			font-size: 5.5em;
 			font-weight: 700;
 			opacity: 1;
 			padding: 0.35em 1em;

@@ -3,8 +3,7 @@
 
 # Site settings
 title: Live. Think. Make.
-description: |
-  Please be patient while I make this site rad
+description: Please be patient while I make this site rad
 owner: Dustin Green # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: livethinkmake@gmail.com

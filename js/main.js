@@ -130,6 +130,7 @@
 	    function iosVhHeightBug() {
 	        var height = $(window).height();
 	        $(".content-block").css('min-height', height);
+	        console.log('ios')
 	    }
 
 	    iosVhHeightBug();

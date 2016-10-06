@@ -22,7 +22,7 @@
 		var	$window = $(window),
 			$body = $('body'),
 			$wrapper = $('#page-wrapper'),
-			$banner = $('#banner'),
+			$banner = $('#intro-banner'),
 			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
@@ -31,6 +31,7 @@
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
+					$banner.addClass('animate');
 				}, 100);
 			});
 
@@ -121,21 +122,5 @@
 	        }
 	    }
 	});
-
-	//ios fix for css vh units
-	var iOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
-	
-	if(iOS){
-
-	    function iosVhHeightBug() {
-	        var height = $(window).height();
-	        $(".content-block").css('min-height', height);
-	        console.log('ios')
-	    }
-
-	    iosVhHeightBug();
-	    $(window).bind('resize', iosVhHeightBug);
-
-	}  
 
 })(jQuery);

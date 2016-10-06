@@ -42,7 +42,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	body {
-		// background: _palette(bg);
+		background: _palette(bg);
 
 		// &.is-loading {
 		// 	*, *:before, *:after {
@@ -270,37 +270,39 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	h1 {
-		@include vendor('transform', 'scale(1)');
+		@include vendor('transform', 'scale(0.75)');
 		@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
+		opacity: 0;
 		font-size: 5.5em;
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: .1em;
 		margin-top: .5em;
-		margin-bottom: .3em;
-		opacity: 100;
+		margin-bottom: .3em;	
 	}
 
 	.sub-title {
 		@include vendor('transition', ('opacity 2s ease .75s'));
+		opacity: 0;
 		font-size: 1.35em;
 		letter-spacing: .15em;
 		font-weight: 400;
 		margin-bottom: 0;
 		color: #DD2476;
-		opacity: 100;
+
 	}
 
-	.is-loading & {
+	&.animate {
 
 		h1 {
-			@include vendor('transform', 'scale(0.75)');
-			opacity: 0;
+			@include vendor('transform', 'scale(1)');
+			opacity: 100;
 		}
 
 		.sub-title {
-			opacity: 0;
+			opacity: 100;
 		}
+
 	}
 
 

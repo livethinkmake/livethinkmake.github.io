@@ -6,6 +6,7 @@
 
 (function($) {
 
+	// set js breakpoints for site
 	skel
 		.breakpoints({
 			xlarge:	'(max-width: 1680px)',
@@ -15,6 +16,7 @@
 			xsmall:	'(max-width: 480px)'
 		});
 
+	// responsive triggers
 	$(function() {
 
 		var	$window = $(window),
@@ -97,7 +99,7 @@
 
 	});
 
-
+	// style canvas gradients
 	var granimInstance = new Granim({
 	    element: '#canvas-gradient',
 	    name: 'basic-gradient',
@@ -119,5 +121,20 @@
 	        }
 	    }
 	});
+
+	//ios fix for css vh units
+	var iOS = navigator.userAgent.match(/(iPod|iPhone|iPad)/);
+	
+	if(iOS){
+
+	    function iosVhHeightBug() {
+	        var height = $(window).height();
+	        $(".content-block").css('min-height', height);
+	    }
+
+	    iosVhHeightBug();
+	    $(window).bind('resize', iosVhHeightBug);
+
+	}  
 
 })(jQuery);

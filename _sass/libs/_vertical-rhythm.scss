@@ -1,0 +1,68 @@
+/*! vertical-rhythmic 3.0.1 (https://github.com/pyrsmk/vertical-rhythmic) */
+
+/*
+	Adapt the rhythm
+
+	Parameters
+		number $factor
+		number $font-size
+*/
+@function vr($factor, $font-size: 1em) {
+	@return (vr-strip($vr-rhythm) / vr-strip($font-size) * vr-strip($factor)) * 1em;
+}
+
+/*
+	Apply a fluid baseline
+
+	Parameters
+		number $min-value
+		number $max-value
+		number $min-vw
+		number $max-vw
+		string $base
+
+	Based on
+		http://www.sassmeister.com/gist/7f22e44ace49b5124eec
+*/
+@mixin vr-fluid($min-value, $max-value, $min-vw, $max-vw, $base: 'width') {
+	font-size: $min-value;
+
+	@media screen and (min-#{$base}: $min-vw) {
+		font-size: calc(#{$min-value} + #{vr-strip($max-value - $min-value)} * (100vw - #{$min-vw}) / #{vr-strip($max-vw - $min-vw)});
+	}
+
+	@media screen and (min-#{$base}: $max-vw) {
+		font-size: $max-value;
+	}
+}
+
+/*
+	Insert some font optimizations
+*/
+@mixin vr-optimize() {
+	font-feature-settings: 'kern' 1;
+	font-kerning: normal;
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+/*
+	Build a vertical grid
+*/
+@mixin vr-grid() {
+	background-image: linear-gradient(rgba(200, 50, 50, 0.5) 1px, transparent 1px);
+	background-size: 1px vr(1);
+}
+
+/*
+	Strip unit
+
+	Parameters
+		number $value
+
+	Return
+		number
+*/
+@function vr-strip($value) {
+	@return $value / ($value * 0 + 1);
+}

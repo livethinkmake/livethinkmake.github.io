@@ -97,4 +97,27 @@
 
 	});
 
+
+	var granimInstance = new Granim({
+	    element: '#canvas-gradient',
+	    name: 'basic-gradient',
+	    direction: 'left-right',
+	    opacity: [1, 1],
+	    isPausedWhenNotInView: true,
+	    states : {
+	        "default-state": {
+	            gradients: [
+                           ["#00d2ff", "#3a7bd5"],
+                            ["#4776E6", "#8E54E9"],
+                            ["#000428", "#004e92"],
+                            ["#FF512F", "#DD2476"],
+                            ["#fd746c", "#ff9068"],
+                            ["#6a3093", "#a044ff"],
+                            ["#76b852", "#8DC26F"],
+                            ["#005C97", "#363795"]
+	            ]
+	        }
+	    }
+	});
+
 })(jQuery);

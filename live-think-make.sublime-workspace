@@ -1,0 +1,700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-right: "
+			],
+			[
+				"text",
+				"text-transform: "
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"trans",
+				"transform	Bourbon"
+			],
+			[
+				"margin",
+				"margin-bottom: "
+			],
+			[
+				"mobile",
+				"mobile-stack"
+			],
+			[
+				"mar",
+				"margin-bottom: "
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"tran",
+				"transition	Bourbon"
+			],
+			[
+				"overlay",
+				"overlay-width"
+			],
+			[
+				"tra",
+				"transition	Bourbon"
+			],
+			[
+				"bo",
+				"bottom: "
+			],
+			[
+				"slide-h",
+				"slide-height-100"
+			],
+			[
+				"slide-",
+				"slide-height-100"
+			],
+			[
+				"slide-height",
+				"slide-height-50"
+			],
+			[
+				"tex",
+				"text-dark-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"background-",
+				"background-color: "
+			],
+			[
+				"opc",
+				"opacity	opacity()"
+			],
+			[
+				"box",
+				"box-sizing	Bourbon"
+			],
+			[
+				"bx",
+				"box-sizing: "
+			],
+			[
+				"opa",
+				"opacity	opacity()"
+			],
+			[
+				"font-",
+				"font-size: "
+			],
+			[
+				"min",
+				"min-height: "
+			],
+			[
+				"tree",
+				"tree-view"
+			],
+			[
+				"op",
+				"opacity	opacity()"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"list",
+				"list-style-type: "
+			],
+			[
+				"z",
+				"z-index: "
+			],
+			[
+				"link-color",
+				"link-hover-color"
+			],
+			[
+				"link-colo",
+				"link-hover-color"
+			],
+			[
+				"tip-togg",
+				"tip-toggle-color"
+			],
+			[
+				"bor",
+				"border-radius	Compass"
+			],
+			[
+				"mix",
+				"mixin	=mixin - with Sass Syntax"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/// Makes an element's :before pseudoelement a FontAwesome icon.\n/// @param {string} $content Optional content value to use.\n@mixin icon($content: false) {\n\n	text-decoration: none;\n\n	&:before {\n\n		@if $content {\n			content: $content;\n		}\n\n		-moz-osx-font-smoothing: grayscale;\n		-webkit-font-smoothing: antialiased;\n		font-family: FontAwesome;\n		font-style: normal;\n		font-weight: normal;\n		// text-transform: none !important;\n\n	}\n\n}\n\n/// Applies padding to an element, taking the current element-margin value into account.\n/// @param {mixed} $tb Top/bottom padding.\n/// @param {mixed} $lr Left/right padding.\n/// @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)\n/// @param {bool} $important If true, adds !important.\n// @mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {\n\n// 	@if $important {\n// 		$important: '!important';\n// 	}\n\n// 	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};\n\n// }",
+			"file": "_sass/libs/_mixins.scss",
+			"file_size": 1012,
+			"file_write_time": 1459766250000000,
+			"settings":
+			{
+				"buffer_size": 1033,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/landing.html",
+			"settings":
+			{
+				"buffer_size": 434,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.scss",
+			"settings":
+			{
+				"buffer_size": 33331,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/cq-dev/dusting-dev/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_wrapper/cnt_wrapper.jsp",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_wrapper.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/site.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_raw-html.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_col-control.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_iframe.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_atoms.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/base.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_raw-html.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/_site-config-v2.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_image.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_img.scss",
+		"/opt/cq-dev/dusting-dev/ccss/ccss-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ccss/libs/scss/_site-config.scss",
+		"/opt/cq-dev/dusting-dev/ltfu/ltfu-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ltfu/libs/scss/_site-config.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_print.scss",
+		"/Users/dgreen/Desktop/hosp-footer.html",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/mm-site.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/mm-base.scss",
+		"/opt/cq-dev/CQ Trunk/www/www-apps/src/main/content/jcr_root/apps/www/components/templates/basepage/footer.jsp",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/shared/libraries/wrappervideo/js/wrappervideo.js",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_wrapper.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/_v2-footer.scss",
+		"/opt/cq-dev/dusting-dev/www/www-apps/src/main/content/jcr_root/apps/www/components/templates/basepage/footer.jsp",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/molecules/_search.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_search.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_mosaic.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/pages/_article.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_social-share.scss",
+		"/opt/cq-dev/dusting-dev/registry/registry-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/registry/libs/scss/styles.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/elements/_social-share.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_tabs.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/molecules/_tabs.scss",
+		"/opt/cq-dev/dusting-dev/brand/brand-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/brand/libs/scss/styles.scss",
+		"/opt/cq-dev/dusting-dev/basesite/basesite-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/basesite/libs/scss/styles.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_modal.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/molecules/_mosaic.scss",
+		"/opt/cq-dev/travisb-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/css/styles-es_LA.css",
+		"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/pages/_article.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/css/styles-es_LA.css",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/pages/_landing.scss",
+		"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/pages/_landing.scss",
+		"/opt/cq-dev/travisb-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_col-control.scss",
+		"/opt/cq-dev/travisb-dev/shared/shared-clientlibs/src/main/scss-v1/elements/_social-share.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_blockquote.scss",
+		"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/_v2-footer.scss",
+		"/opt/cq-dev/travisb-dev/www/www-apps/src/main/content/jcr_root/apps/www/components/templates/basepage/footer.jsp",
+		"/opt/cq-dev/CQ Trunk/shared/shared-clientlibs/src/main/scss-v1/molecules/_mosaic.scss",
+		"/opt/cq-dev/travisb-dev/shared/shared-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/shared/libraries/image/js/image.js",
+		"/opt/cq-dev/travisb-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_image.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_blockquote.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/atoms/_accents.scss",
+		"/Users/dgreen/Desktop/footer.html",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/forms/_form-contact-us.scss",
+		"/Users/dgreen/Desktop/_v2-footer-3-col.scss",
+		"/opt/cq-dev/dusting-dev/ccss/ccss-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ccss/libs/scss/_theme-config.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/_theme-config-v2.scss",
+		"/opt/cq-dev/dusting-dev/ccss/ccss-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ccss/libs/scss/_custom.scss",
+		"/opt/cq-dev/dusting-dev/ltfu/ltfu-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ltfu/libs/scss/_custom.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/_footer.scss",
+		"/Users/dgreen/Desktop/footer.jsp",
+		"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_mosaic.scss",
+		"/opt/cq-dev/chandra-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_mosaic.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/molecules/_mosaic.scss",
+		"/opt/cq-dev/chandra-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_search.scss",
+		"/opt/cq-dev/chandra-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_gsa-search.scss",
+		"/opt/cq-dev/chandra-dev/shared/shared-clientlibs/src/main/scss-v1/molecules/_gsa-search.scss",
+		"/opt/cq-dev/mosaic/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/pages/_homepage.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/molecules/_gsa-search.scss",
+		"/opt/cq-dev/mosaic/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_gsa-search.scss",
+		"/opt/cq-dev/mosaic/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_mosaic.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/elements/_elements.scss",
+		"/opt/cq-dev/mosaic/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_accents.scss",
+		"/opt/cq-dev/mosaic/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/_site-config.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/atoms/_accents.scss",
+		"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/themes/memphis-marathon/partials/_mm-header.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/molecules/_tabs.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/atoms/_wrapper.scss",
+		"/opt/cq-dev/mosaic/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_wrapper.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/atoms/_modal.scss",
+		"/opt/cq-dev/mosaic/shared/shared-clientlibs/src/main/scss-v1/atoms/_buttons.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/scss-v1/molecules/_combo-box.scss",
+		"/opt/cq-dev/mosaic/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_mosaic-old-site-level.scss",
+		"/Users/dgreen/Desktop/_mosaic-old.scss",
+		"/opt/cq-dev/dusting-dev/shared/shared-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/shared/libraries/jquery.matchheight/js/jquery.matchHeight.js",
+		"/opt/cq-dev/dusting-dev/ccss/ccss-apps/src/main/content/jcr_root/apps/ccss/components/templates/twocolpage/content.jsp",
+		"/opt/cq-dev/dusting-dev/ltfu/ltfu-apps/src/main/content/jcr_root/apps/ltfu/components/templates/twocolpage/content.jsp",
+		"/opt/cq-dev/dusting-dev/ccss/ccss-apps/src/main/content/jcr_root/apps/ccss/components/templates/homepage/content.jsp",
+		"/opt/cq-dev/CQ Trunk/shared/shared-clientlibs/src/main/scss-v1/atoms/_wrapper.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_col-control.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_back-to-top.scss",
+		"/opt/cq-dev/dusting-dev2/ccss/ccss-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ccss/libs/scss/_site-config.scss",
+		"/opt/cq-dev/dusting-dev2/shared/shared-clientlibs/src/main/scss-v1/atoms/_back-to-top.scss",
+		"/opt/cq-dev/dusting-dev2/shared/shared-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/shared/libraries/jquery.backtotop/js/jquery.backtotop.js",
+		"/opt/cq-dev/dusting-dev2/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_gallery/slide/slide.jsp",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_gallery.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/fonts/icons/sj-icons/demo.html",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/themes/memphis-marathon/partials/_mm-header.scss",
+		"/opt/cq-dev/dusting-dev2/shared/shared-clientlibs/src/main/scss-v1/base/_helpers.scss",
+		"/opt/cq-dev/dusting-dev2/shared/shared-clientlibs/src/main/scss-v1/elements/_gallery.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/site.scss",
+		"/opt/cq-dev/travisb-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/themes/memphis-marathon/partials/_mm-nav.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_wrapper.scss",
+		"/opt/cq-dev/dusting-dev2/shared/shared-clientlibs/src/main/scss-v1/atoms/_wrapper.scss",
+		"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_wrapper.scss",
+		"/opt/cq-dev/CQ Trunk/shared/shared-libs/src/main/java/org/stjude/wcm/shared/components/wrapper/WrapperComponent.java",
+		"/opt/cq-dev/CQ Trunk/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_wrapper/cnt_wrapper.jsp",
+		"/opt/cq-dev/CQ Trunk/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_panel/_cq_htmlTag/.content.xml",
+		"/opt/cq-dev/CQ Trunk/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_panel/.content.xml",
+		"/opt/cq-dev/CQ Trunk/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_panel/_cq_editConfig.xml",
+		"/opt/cq-dev/CQ Trunk/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_panel/dialog.xml",
+		"/opt/cq-dev/CQ Trunk/shared/shared-apps/src/main/content/jcr_root/apps/shared/components/cnt_panel/cnt_panel.jsp",
+		"/opt/cq-dev/CQ Trunk/shared/shared-libs/src/main/java/org/stjude/wcm/shared/components/wrapper/PanelComponent.java",
+		"/opt/cq-dev/CQ Trunk/shared/shared-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/shared/libraries/wrapper/js/wrapper.js",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_tabs.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/pages/_article.scss",
+		"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/themes/memphis-marathon/partials/_mm-nav.scss",
+		"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/themes/memphis-marathon/partials/_mm-header.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_buttons.scss",
+		"/opt/cq-dev/dusting-dev2/ltfu/ltfu-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ltfu/libs/scss/_site-config.scss",
+		"/opt/cq-dev/dusting-dev2/ltfu/ltfu-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ltfu/libs/scss/_custom.scss",
+		"/opt/cq-dev/dusting-dev2/ccss/ccss-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ccss/libs/scss/_custom.scss",
+		"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/partials/components/_image.scss",
+		"/opt/cq-dev/dusting-dev2/shared/shared-clientlibs/src/main/scss-v1/molecules/_mosaic.scss",
+		"/opt/cq-dev/dusting-dev2/ltfu/ltfu-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ltfu/libs/scss/_theme-config.scss",
+		"/opt/cq-dev/dusting-dev2/ltfu/ltfu-apps/src/main/content/jcr_root/apps/ltfu/components/templates/twocolpage/content.jsp",
+		"/opt/cq-dev/dusting-dev2/ltfu/ltfu-apps/src/main/content/jcr_root/apps/ltfu/components/templates/onecolpage/content.jsp",
+		"/opt/cq-dev/dusting-dev2/shared/shared-clientlibs/src/main/scss-v1/molecules/_tabs.scss",
+		"/opt/cq-dev/dusting-dev2/ccss/ccss-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/ccss/libs/scss/_theme-config.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/opt/cq-dev/dusting-dev",
+			"/opt/cq-dev/dusting-dev/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss",
+			"/opt/cq-dev/travisb-dev",
+			"/opt/cq-dev/dusting-dev",
+			"/opt/cq-dev/mosaic",
+			"/opt/cq-dev/dusting-dev",
+			"/opt/cq-dev/CQ Trunk/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss/themes",
+			"/opt/cq-dev/dusting-dev2/ccss",
+			"/opt/cq-dev/dusting-dev2/www/www-clientlibs/src/main/content/jcr_root/etc/clientlibs/stjude/www/libs/scss",
+			"/opt/cq-dev/dusting-dev",
+			"/opt/hope-framework",
+			"/opt/cq-dev/dusting-dev/www",
+			"/opt/cq-dev/dusting-dev"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"56.25%",
+			"iframe",
+			"bullet",
+			"logo-child",
+			"print",
+			"figcaption",
+			"_content_sites_ltfu_en_US_home_newsletters_jcr_content_par-2_start",
+			":before",
+			"64.25em",
+			"h4",
+			".par-2",
+			"nav",
+			":not",
+			"nav",
+			"tabs-base",
+			":not",
+			"nav",
+			"\n",
+			"transition",
+			"wrapper",
+			":not",
+			"hover",
+			"translate",
+			"badges",
+			".text +",
+			"separated",
+			"col-3",
+			"not",
+			".col-4",
+			"60em",
+			"class",
+			"img",
+			"left-wrap",
+			"blockquote",
+			"color-block",
+			"blockquote",
+			"blockquoute",
+			"blockquote",
+			"picture",
+			"img-top",
+			"first",
+			"picture",
+			".color",
+			"blockquote",
+			".color",
+			"*",
+			".blockquote",
+			".text",
+			"blockquote",
+			"lang",
+			"language",
+			"border-bottom",
+			"border-top",
+			"footer-b",
+			"include span",
+			".wrapper",
+			"img",
+			"global-footer",
+			".text ",
+			".text",
+			"text a",
+			"default-text-light",
+			"$accent-1-link",
+			"delineator",
+			"text b",
+			".image",
+			"slide-in-left",
+			"btn-quadinary",
+			"first-child",
+			".image",
+			".text a",
+			"text-dark-color",
+			"img",
+			"h3",
+			"1.25em",
+			"h3",
+			"$gsa-result-link-size",
+			"$gsa-seach-input-font-size",
+			"featured",
+			"slide-in-left",
+			"content-trans-4",
+			"content-align-width",
+			".img-left",
+			"slide-in-left",
+			"content-trans-4",
+			"first-of-type",
+			"img-top",
+			"first-of",
+			".img-top",
+			"first-child",
+			"class*",
+			"initial",
+			"$columns",
+			".image",
+			"edge",
+			"remove-max-width",
+			"no-horizontal-margin",
+			"edge-to-edge",
+			"max-width: none",
+			".gutterless",
+			"seamless",
+			"gutterless",
+			"pointer-events",
+			"pointer",
+			".landing.home",
+			"$content-padding",
+			"overlay-transition-shrink",
+			"content-padding",
+			"overlay-transition-shrink",
+			"color-block-padding",
+			"overlay-transition-shrink",
+			"1.5em",
+			"transition-pan",
+			"color-block",
+			".no-touch",
+			"content-transition-fade",
+			"v-align-spaceer",
+			":first-child",
+			"$content-padding",
+			"breakpoint",
+			"$content-padding",
+			".img-left",
+			"$mosaic-bp-2",
+			"color-block",
+			"content-transition-fade",
+			"color-block",
+			"fade",
+			"content-trans-1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"auto",
+			".home .landing",
+			".3s ease-in-out .1s",
+			"    // start hover styles\n    //------------------------------------",
+			"h1",
+			"aem-AuthorLayer-Edit"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_sass/libs/_mixins.scss",
+					"settings":
+					{
+						"buffer_size": 1033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/landing.html",
+					"settings":
+					{
+						"buffer_size": 434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/main.scss",
+					"settings":
+					{
+						"buffer_size": 33331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1422,
+								1422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/cq-dev.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true
+}

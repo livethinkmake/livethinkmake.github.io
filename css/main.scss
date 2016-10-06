@@ -302,6 +302,18 @@ $baseurl: '{{ site.baseurl }}/images';
 			opacity: 0;
 		}
 	}
+
+
+	@include breakpoint(xsmall) {
+		
+		h1 {
+			text-align: left;
+		}
+
+		.sub-title {
+			text-align: left;
+		}
+	};
 }
 
 // Element Styles

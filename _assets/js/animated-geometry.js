@@ -33,8 +33,8 @@ window.addEventListener("load", function() {
    var r = 250;
    var vr = 0.2;
    var x=0,y=0;
-   
-   
+
+
 
    function setCanvasSize() {
       canvas.width = window.innerWidth;
@@ -56,7 +56,7 @@ window.addEventListener("load", function() {
             canvas.width / 2, //starting point X
             canvas.height / 2 //starting point Y
          );
-         
+
          ctx.quadraticCurveTo(
             canvas.width / 2 + r * Math.sin(i * 2 * Math.PI / curvesNum) * 2, //cpX
             canvas.height / 2 + r * Math.cos(i * 2 * Math.PI / curvesNum) * 2, //cpY
@@ -71,27 +71,27 @@ window.addEventListener("load", function() {
          // }
 
       }
-      
+
       if (r > 700 || r < 250) {
          vr *= -1;
       }
       r += vr;
       x+=Math.PI/2880;
-      y+=Math.PI/2880; 
-     
+      y+=Math.PI/2880;
+
 
       // if(document.getElementById("rotate").checked){
       //    x+=Math.PI/2880;
       //    y+=Math.PI/2880;
-      // }          
-      
+      // }
+
       requestAnimFrame(draw);
    }
 
    window.addEventListener("resize", function() {
       setCanvasSize();
       setBG();
-      draw();
+      //draw();
    });
 
    // document.getElementById("range").addEventListener("input", function() {
@@ -99,8 +99,8 @@ window.addEventListener("load", function() {
    //    document.getElementById("rangeText").innerHTML=
    //       "number of curves : "+this.value;
    // });
-   
-  
+
+
 
    setCanvasSize();
    setBG();
